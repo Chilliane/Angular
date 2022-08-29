@@ -1,1 +1,112 @@
 /* You can add global styles to this file, and also import other style files */
+
+  h1 {
+    color: #c1d1e8;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 250%;
+  }
+  h2, h3 {
+    color: #c1d1e8;;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: lighter;
+  }
+  body {
+    margin: 2em;
+    background-color: #0e1a2b;
+  }
+  body, input[type="text"], button {
+    font-family: Cambria, Georgia, serif;
+  }
+  button {
+    background-color: #eee;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    color: black;
+    font-size: 1.2rem;
+    padding: 1rem;
+    margin-right: 1rem;
+    margin-bottom: 1rem;
+    margin-top: 1rem;
+  }
+  .hright{
+    width: 180px;
+    height: 100%;
+  }
+  button:hover {
+    background-color: black;
+    color: white;
+  }
+  button:disabled {
+    background-color: #eee;
+    color: #aaa;
+    cursor: auto;
+  }
+  #header{
+    height: 30%;
+  }
+  #content{
+    height: 60%;
+  }
+  .headerproperties{
+    width:10%;
+    float: left;
+    color: #c1d1e8;
+    font-size: large;
+    font-weight: bold;
+  }
+  .headerproperties2{
+    width:89%;
+    float: left;
+    color: #c1d1e8;
+    font-size: large;
+    font-weight: bold;
+  }
+  .leftcontent{
+    width:20%;
+    float: left;
+    color: #c1d1e8;
+    padding-left: 20px;
+
+  }
+  .centercontent{
+    width:60%;
+    float: left;
+    color: #c1d1e8;
+    
+  }
+  .innercontent{
+    padding-top: 20px;
+    
+  }
+  .picture{
+    width: 80px;
+    height: 80px;
+    float: left;
+    background-color: black;
+    padding:10px;
+
+  }
+  .context{
+    float: left;
+    width:80%;
+    height: 10%;
+  }
+  .rating{
+    float: left;
+    border-radius: 50%;
+    width: 24px;
+    height: 24px;
+    padding: 10px;
+    border: 1px solid;
+    text-align: center;
+    font-size: large;
+    font-weight: bold;
+    background-color: #5692e8;
+    
+
+  }
+  /* everywhere else */
+  *{
+    font-family: Arial, Helvetica, sans-serif;
+  }
